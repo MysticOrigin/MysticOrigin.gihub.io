@@ -1,0 +1,6 @@
+body {
+    background-image: url('../Images/title_screen.png');
+    background-repeat: no-repeat;
+    /* background-position: center;  */
+    background-size: 100%;
+  }
