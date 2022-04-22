@@ -38,7 +38,7 @@ a:hover {
 
 p
 {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 
@@ -55,27 +55,26 @@ p
     margin-right: 50px;
   }
 
-  .features-menu {
+  .features-menu { /* The submenu */
     display: none;
     z-index: 1;
   }
 
-  .dropdown > span {
+  .dropdown > span { 
     z-index: 2;
-    position: relative;  /* This is important! */
+    position: relative; 
     cursor: pointer;
     color: #5D6063;
   }
 
-  .dropdown:hover .features-menu {
+  .dropdown:hover .features-menu { /* When the mouse is over the submenu */
     display: flex;
     flex-direction: column;
     background: beige;
     border-radius: 5px;
-    padding-top: 60px; /* 7 */
-
+    padding-top: 60px;
     position: absolute; 
-    top: -25px; /* 40 */
+    top: -25px; 
     left: -30px;
   }
   
