@@ -3,8 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 18px;
-    font-family: sans-serif;
+    font-size: 17px;
+    font-family: "Roboto Slab", serif;
+    font-style: bold;
 }
 
 
@@ -34,12 +35,37 @@ a:visited {
 }
 a:hover {
   text-decoration: underline;
+  background-color: white;
 }
 
 p
 {
-    margin-bottom: 50px;
+  margin-bottom: 10px;
 }
+
+.chapeau
+{
+  margin-left: 60px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+
+h2
+{
+  font-family: "Merriweather", serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+h1
+{
+  font-family: "Merriweather", serif;
+  font-size: 2em;
+  margin-bottom: 25px;
+}
+
 
 
 .menu {
