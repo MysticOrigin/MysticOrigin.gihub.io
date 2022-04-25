@@ -1,32 +1,9 @@
-.page {
-    /* min-height: 100vh + 200px; */
+body {
     background-image: url('../Images/title_screen.png'); 
-    /* background-repeat: no-repeat;
-    background-position-y: -200px; 
-    background-size: cover; */
-    /* height : 100vh - 70px; */
-    /* width : 100vw; */
-    /* padding : 20px 20px; */
-    /* top : -100px */
-
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
-
     background-position: center center;
-
-    /* Background image doesn't tile */
     background-repeat: no-repeat;
-
-    /* Background image is fixed in the viewport so that it doesn't move when
-    the content's height is greater than the image's height */
     background-attachment: fixed;
-
-    /* This is what makes the background image rescale based
-    on the container's size */
     background-size: cover;
-
   }
 
 
@@ -39,5 +16,6 @@ h1
 
 p
 {
-  margin-right: 700px;
+  margin-right: 55vw;
+  margin-left: 10px;
 }
