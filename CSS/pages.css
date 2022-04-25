@@ -1,0 +1,15 @@
+.contenu
+{
+    background-color: beige;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3vh;
+    z-index: 1;
+    padding : 3vh 3vw 3vh 3vw;
+    border-radius: 2%;
+}
+
+.portrait /* 400 300 */
+{
+    width: 10vw
+}

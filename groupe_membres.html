@@ -4,11 +4,34 @@
     <!-- Metadata goes here -->
     <title>Mystic Origin - Les membres du groupe</title>
     <link rel='stylesheet' href='CSS/style.css'/>
+    <link rel='stylesheet' href='CSS/pages.css'/>  
+
+    <!-- Load the fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto+Slab:wght@450&display=swap" rel="stylesheet">
     <meta charset='UTF-8'/>
   </head>
   <body>
     <!-- Content goes here -->
-    <a href= "index.html">Retour à la page d'accueil</a>
+
+    <div class = "header">    <!-- Head of the page -->
+      <img src="Images/logo_MO.png" alt="Notre logo" class= "logo"/> 
+
+      <ul class='menu'>   <!-- The menu is a list of links -->
+        <li><a href='index.html'>Accueil</a></li> 
+        <li class='dropdown'><span>Notre groupe &#9662;</span>    <!-- Special element : a submenu -->
+          <ul class='features-menu'>           <!-- Start of submenu -->
+            <li><a href='groupe.html'>Historique du groupe</a></li>
+            <li><a href='groupe_membres.html'>Les membres du groupe</a></li>
+          </ul>                                <!-- End of submenu -->
+        </li>
+        <li><a href='jeu.html'>Le jeu</a></li>
+        <li><a href='telechargement.html'>Téléchargement</a></li>
+        <li><a href='documents.html'>Documents</a></li>
+        <li><a href='ressources.html'>Ressources</a></li>
+      </ul>
+
+    </div>
+    <div class = "contenu">
     <h1>Les membres du groupe</h1>
 
     <p>Un membre du groupe, Camille Picard, a décidé de quitter l'Epita début février. 
@@ -17,6 +40,7 @@
     <p>Une place était donc vacante, et, en mars, Paloma Martin nous a rejoint. </p>
 
     <h2>Camille Picard</h2>
+    <img src="Images/portrait_camille.png" class="portrait" alt="Camille">
     <p>Passionnée de mathématiques mais pure moldue de l’informatique et de l’algorithmique ! 
       J’ai découvert l’algorithmique lors du séminaire de début d’année. Ce fut, je l’admets, 
       un peu violent mais j’ai adoré le côté challengeant ! Peut-être un peu folle de venir à Epita 
@@ -92,5 +116,7 @@
         <p>Accompagnée de bons amis, d’un bon projet, nous ne pouvons que réussir ! Néanmoins, je suis une 
          novice dans le domaine de la programmation, j’espère que ce projet me permettra de m’y sentir plus 
          à l’aise.</p>
+         
+        </div>   
   </body>
 </html>
