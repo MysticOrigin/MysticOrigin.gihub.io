@@ -7,20 +7,32 @@ body
 .contenu
 {
     background-color: beige;
+    background-size: cover;
     margin-left: 10vw;
     margin-right: 10vw;
     margin-top: 3vh;
     padding : 3vh 3vw 3vh 3vw;
     border-radius: 2%;
+    overflow: hidden;
 }
 
+.personne
+{
+    display:block;
+    overflow: hidden;  
+    float : left;
+
+}
 
 .portrait /* 400 300 */
 {
     padding-top: 40px;
+    left :0;
     height: 50vh; /* MODIFFF */ 
     float : left;
     margin-right : 1vw;
+    /* overflow: hidden;
+    display: flex; */
 }
 
 h1
