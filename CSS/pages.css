@@ -1,15 +1,46 @@
+body
+{
+    padding-bottom: 5vh;
+}
+
+
 .contenu
 {
     background-color: beige;
     margin-left: 10vw;
     margin-right: 10vw;
     margin-top: 3vh;
-    z-index: 1;
     padding : 3vh 3vw 3vh 3vw;
     border-radius: 2%;
 }
 
+
 .portrait /* 400 300 */
 {
-    width: 10vw
+    padding-top: 40px;
+    width: 15vw;
+    float : left;
+    margin-right : 1vw;
+}
+
+h1
+{
+    text-align: center;
+}
+
+h2
+{
+    color : purple;
+    font-size: 2em;
+    padding-top: 25px;
+}
+
+.chapeau
+{
+    margin-bottom: 7vh;
+}
+
+a.secret
+{
+    font-size: 1.5em;
 }
