@@ -1,3 +1,5 @@
+/* Global parameters of the website */
+
 *
 {
     margin: 0; 
@@ -8,6 +10,7 @@
     font-style: bold;
 }
 
+/* Background image : title-screen of the game */
 body {
   background-image: url('../Images/title_screen.png'); 
   background-position: center center;
@@ -17,13 +20,11 @@ body {
 }
 
 
-
+/* Parameters of the menu */
 .header
 {
     background-color: beige;
-    /* padding: 20px 0; */
     width : 100%;
-    /* position: fixed; */
     display: flex;
     justify-content: space-between;
 
@@ -31,7 +32,6 @@ body {
 
 .logo
 {
-    /* position: inherit; */
     height: 70px;
     padding-left: 10px;
 }
@@ -47,13 +47,77 @@ a:hover
   color:gray;
 }
 
+.menu 
+{
+  margin-top: 25px;
+}
+
+.menu > li 
+{
+  display: inline;
+  margin-right: 50px;
+}
+
+.menu > li:last-of-type 
+{
+  margin-right: 50px;
+}
+
+/* The submenu */
+.features-menu 
+{ 
+  display: none;
+  z-index: 1;
+}
+
+.dropdown > span 
+{ 
+  z-index: 2;
+  position: relative; 
+  cursor: pointer;
+  color: purple;
+
+}
+
+.dropdown:hover .features-menu 
+{ 
+  display: flex;
+  flex-direction: column;
+  background: beige;
+  border-radius: 5px;
+  padding-top: 60px;
+  position: absolute; 
+  top: -25px; 
+  left: -30px;
+}
+
+.features-menu li 
+{
+  list-style: none;
+  font-size: 0.8em;
+  border-bottom: 2px solid #FFF;
+
+  padding: 0 0 10px 0;
+  text-align: center;
+  margin: 7px;
+}
+
+.features-menu li:last-of-type 
+{
+  border-bottom: none;
+}
+
+.dropdown 
+{
+  position: relative;
+}
+
+
+/* General perameters */
 p
 {
   margin-bottom: 10px;
 }
-
-
-
 
 h2
 {
@@ -70,63 +134,3 @@ h1
   margin-bottom: 25px;
 }
 
-
-
-.menu {
-    margin-top: 25px;
-  }
-  
-  .menu > li {
-    display: inline;
-    margin-right: 50px;
-  }
-  
-  .menu > li:last-of-type {
-    margin-right: 50px;
-  }
-
-  .features-menu { /* The submenu */
-    display: none;
-    z-index: 1;
-  }
-
- 
-
-  .dropdown > span { 
-    z-index: 2;
-    position: relative; 
-    cursor: pointer;
-    color: purple;
-
-  }
-
-  .dropdown:hover .features-menu { /* When the mouse is over the submenu */
-    display: flex;
-    flex-direction: column;
-    background: beige;
-    border-radius: 5px;
-    padding-top: 60px;
-    position: absolute; 
-    top: -25px; 
-    left: -30px;
-  }
-  
-  .features-menu li {
-    list-style: none;
-    font-size: 0.8em;
-    border-bottom: 2px solid #FFF;
-  
-    padding: 0 0 10px 0;
-    text-align: center;
-    margin: 7px;
-  }
-  
-  .features-menu li:last-of-type {
-    border-bottom: none;
-  }
-
-  .dropdown {
-    position: relative;
-  }
-
-  
