@@ -49,7 +49,7 @@ h2
 
 .chapeau
 {
-    margin-bottom: 7vh;
+    margin-bottom: 5vh;
 }
 
 a.secret
@@ -68,5 +68,11 @@ a.secret
 li
 {
     list-style: none;
+}
+
+.citations > li
+{
+    list-style: circle; 
+    margin-bottom: 10px;
 }
 
