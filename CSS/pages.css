@@ -18,7 +18,7 @@ body
 .portrait /* 400 300 */
 {
     padding-top: 40px;
-    width: 15vw;
+    height: 50vh; /* MODIFFF */ 
     float : left;
     margin-right : 1vw;
 }
