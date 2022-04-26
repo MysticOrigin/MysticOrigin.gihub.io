@@ -42,5 +42,19 @@ h2
 
 a.secret
 {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
+
+.ressources
+{
+    padding-top: 10px;
+    height: 10vh;
+    float : left;
+    margin-right : 1vw;
+}
+
+li
+{
+    list-style: none;
+}
+
