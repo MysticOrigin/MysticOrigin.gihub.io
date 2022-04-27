@@ -12,7 +12,8 @@
 
 /* Background image : title-screen of the game */
 body {
-  background-image: url('../Images/title_screen.png'); 
+  /* background-image: url('../Images/title_screen.png');  */
+  background-image: url('../Images/gif_menu.gif'); 
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;

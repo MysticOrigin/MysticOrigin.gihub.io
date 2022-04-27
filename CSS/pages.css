@@ -2,7 +2,11 @@
 
 body
 {
-    padding-bottom: 5vh;
+    background-image: url('../Images/title_screen.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /* Background to write on */
