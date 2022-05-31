@@ -47,17 +47,15 @@ h2
     display:block;
     overflow: hidden;  
     float : left;
-
 }
 
 .portrait
 {
     padding-top: 40px;
     left :0;
-    height: 50vh;
+    height: 40vh;
     float : left;
     margin-right : 1vw;
-
 }
 
 
@@ -95,37 +93,40 @@ li
 
 /* Parameters of the game page */
 
-.box_download
-{
-    display: block;
-    float : left;
-    background-color: beige;
-    background-size: cover;
-    margin-left: 3vw;
-    margin-top: 3vh;
-    padding : 3vh 3vw 3vh 3vw;
-    border-radius: 2%;
-    text-align: center;
-}
-
 .box_yggdrasil
 {
-    clear: left;
-    margin-left: 3vw;
+    float:left;
     margin-top: 3vh;
+    margin-left: 1vw;;
     padding : 3vh 3vw 3vh 3vw;
     border-radius: 2%;
+}
+
+.box_yggdrasil img
+{
+    height: 70vh;
 }
 
 .box_synopsis
 {
-    display: block;
-    float : right;
     background-color: beige;
     background-size: cover;
-    margin-right: 3vw;
-    width: 65%;
-    margin-top: 3vh;
-    padding : 3vh 3vw 3vh 3vw;
+    height: 75vh;
+    margin: 3vh 3vw 0 3vw;
+    padding : 3vh 3vw 4vh 3vw;
     border-radius: 2%;
+}
+
+.box_download
+{
+    width: fit-content;
+    height: fit-content;
+    float : left;
+    background-color:lightgrey;
+    background-size: cover;
+    margin-right: 2vw;
+    margin-top: 3vh;
+    padding : 0 3vw 3vh 3vw;
+    border-radius: 2%;
+    text-align: center;
 }
