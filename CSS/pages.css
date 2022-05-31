@@ -14,9 +14,7 @@ body
 {
     background-color: beige;
     background-size: cover;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-top: 3vh;
+    margin: 3vh 10vw 3vh 10vw;
     padding : 3vh 3vw 3vh 3vw;
     border-radius: 2%;
     overflow: hidden;
@@ -129,4 +127,11 @@ li
     padding : 0 3vw 3vh 3vw;
     border-radius: 2%;
     text-align: center;
+}
+
+.source
+{
+  /* text-decoration: none; */
+  color: lightgrey;
+  font-size: 0.5em;
 }
