@@ -129,9 +129,14 @@ li
     text-align: center;
 }
 
-.source
+/* .source
 {
-  /* text-decoration: none; */
+  text-decoration: none;
   color: lightgrey;
   font-size: 0.5em;
+} */
+
+.normal-color
+{
+    color: black;
 }
