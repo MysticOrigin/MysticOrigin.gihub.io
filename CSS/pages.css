@@ -140,3 +140,58 @@ li
 {
     color: black;
 }
+
+
+/* Parameters of the documents page */
+
+.box_documents
+{
+    width: fit-content;
+    height: fit-content;
+    float : left;
+    background-color:beige;
+    background-size: cover;
+    margin: 3vh 0 3vh 1vw;
+    padding : 0 2vw 0 2vw;
+    border-radius: 2%;
+    text-align: center;
+}
+
+.box_liste
+{
+    width: fit-content;
+    height: fit-content;
+    float : left;
+    background-color:beige;
+    background-size: cover;
+    padding : 20px 3vw 2vh 3vw;
+    border-radius: 2%;
+    text-align: center;
+    margin: 3vh 1vw 3vh 1vw;
+}
+
+.box_boitier
+{
+    float:right;
+    width: fit-content;
+    margin-top: 3vh;
+    margin-left: 1vw;
+    margin-right: 3vw;
+    padding : 3vh 0 3vh 3vw;
+    border-radius: 2%;
+    background-color:beige;
+    background-size: cover;
+}
+
+.box_boitier img
+{
+    margin-right: 3vw;
+    height: 75vh;
+}
+
+.box_planning img
+{
+    float:left;
+    height: 48vh;
+    margin-left: 5vw;
+}
