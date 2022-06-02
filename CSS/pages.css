@@ -90,6 +90,11 @@ li
     text-align: center;
 }
 
+.less_padding
+{
+  margin-top: -5vh;
+}
+
 /* Parameters of the game page */
 
 .box_yggdrasil
@@ -169,7 +174,7 @@ li
     float : left;
     background-color:beige;
     background-size: cover;
-    padding : 20px 3vw 17px 3vw;
+    padding : 10px 3vw 10px 3vw;
     border-radius: 2%;
     text-align: center;
     margin: 3vh 1vw 3vh 1vw;
